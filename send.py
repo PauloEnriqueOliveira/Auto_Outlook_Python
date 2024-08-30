@@ -13,7 +13,7 @@ def enviar_email_com_anexo(destinatario, copia, assunto, corpo, anexo):
         print(f"Email enviado para {destinatario} com cópia para {', '.join(copia)}.")
     except Exception as e:
         print(f"Erro ao enviar o email: {e}")
-
+	
 destinatario = "email do destinatario"
 copia = ["usuarios em copia do email"]
 assunto = "Assunto do email"
